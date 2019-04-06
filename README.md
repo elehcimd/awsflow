@@ -127,7 +127,7 @@ bash-4.2# awsflow.emr create --cluster cheap
 [...]
 ```
 
-Once the ready is ready, it prints some handy commands, URLs and statistics:
+Once the cluster is ready, it prints some handy commands, URLs and statistics:
 
 ```
 [...]
