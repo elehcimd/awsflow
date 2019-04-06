@@ -367,7 +367,7 @@ Adding custom Lambda functions is as easy as adding them in modules inside the `
 ## Iterative development process
 
 Changes to the awsflow package are immediately reflected inside the container and can be pushed to AWS with `fab pkg_deploy`. PEP8 compliance is ensured with `fab test_pep8` and some fixes can be automated with `fab fix_pep8`.
-Additional tests can be added at `awsflow.tests`.
+Additional tests can be added in the `awsflow.tests` subpackage.
 
 > Warning: updating the deployed package does not update the package version included in uploaded Lambda functions. You must update each uploaded Lambda function separately.
 
