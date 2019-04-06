@@ -1,0 +1,8 @@
+# Include additional files
+include awsflow
+include requirements.txt
+include awsflow/version.py
+
+# Exclude temporary files and directories
+recursive-exclude awsflow __pycache__
+recursive-exclude awsflow *.py[co]

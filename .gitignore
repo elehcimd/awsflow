@@ -1,0 +1,14 @@
+target/
+dist/
+build/
+.cache/
+__pycache__/
+.idea/
+private/
+*.egg-info/
+.DS_Store
+secrets.py
+.pytest_cache
+.python-version
+*.py[cod]
+*.tmp
