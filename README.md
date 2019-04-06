@@ -150,7 +150,7 @@ To restart receiving again updates for a specific cluster creation or to print a
 awsflow.emr create --id j-DFSJK36AXDNR
 ```
 
-Cluster templates can have parameters that can be passed with repeated `--param key:value` options.
+Cluster templates can have parameters that can be passed with repeated `--param name:value` options.
 
 ## Accessing web services on EMR master node
 
