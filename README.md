@@ -360,7 +360,7 @@ The returned value will be similar to:
 }
 ```
 
-The value of "awsflow-version" can be checked against your local copy. "cluster_id" contains the EMR cluster ID being created. The function returns immediately and doesn't wait for the completion of the creation.
+The value of n`awsflow-version` can be checked against your local copy. `cluster_id` contains the EMR cluster ID being created. The function returns immediately and doesn't wait for the completion of the creation.
 
 Adding custom Lambda functions is as easy as adding them in modules inside the `awsflow.lambdas` subpackage. There is no registry for Lambda functions.
 
