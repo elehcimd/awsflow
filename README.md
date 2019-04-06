@@ -1,4 +1,4 @@
-# AWSFlow: From zero to EMR jobs and Lambda functions with Python 
+# AWSFlow: From zero to Amazon EMR jobs and Lambda functions with Python 
 
 This package lets you define programmatically workloads for AWS Elastic Map Reduce (EMR) clusters and Lambda
 functions using Python with a concise methodology aimed at fast prototyping.
