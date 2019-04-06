@@ -377,7 +377,7 @@ The package provides also these other functionalities:
 
 * All command line tools are also accessible programmatically
 * Slack integration: send messages easily from command line, as implemented in the `awsflow.templates.step.slack`
-* Update the installed `awsflow` from command line with the `awsflow.update` command to a specific version 
+* Update the installed `awsflow` from command line with the `awsflow.update` or the `update-awsflow` step 
 * Add Python packages from S3 with the `awsflow.add.pkg` command line tool
 * Add custom command line tools in `awsflow.tools`, making them available from `setup.py`
 * Add additional Python code with the `--include` parameter, available for both `awsflow.emr` and `awsfloe.lambda` on all tasks.
