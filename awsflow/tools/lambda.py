@@ -157,12 +157,12 @@ def main():
 
     parser = argparse.ArgumentParser(description="AWS Lambda admin tool v{}".format(__version__))
     parser.add_argument('task', choices=['list', 'create', 'update', 'delete'])
-    parser.add_argument('--region', default=AWS_DEFAULT_REGION)
-    parser.add_argument('--include', action='append')
-    parser.add_argument('--mod')
-    parser.add_argument('--func')
-    parser.add_argument('--name')
-    parser.add_argument('--cache')
+    parser.add_argument('--region', default=AWS_DEFAULT_REGION, help="region to consider")
+    parser.add_argument('--include', action='append', help="include Python script")
+    parser.add_argument('--mod', help="module name")
+    parser.add_argument('--func', help="function name")
+    parser.add_argument('--name', help="function to delete")
+    parser.add_argument('--cache', help="cache key")
 
     args = parser.parse_args()
 
