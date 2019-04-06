@@ -166,7 +166,7 @@ Connections to TCP port `TCP_PORT_PROXY` on the host are forwarded through an SS
 The setup and configuration of the web proxy are left to you. With FoxyProxy, you can use the `foxyproxy-aws-emr.xml` configuration file. If you changed the value of `TCP_PORT_PROXY`, you need to adjust the proxy port also in the XML config file.
 
 Once the tunnel is up and running and the proxy is enabled in your browser, the URLs printed
-at the end of the cluster creation become reachable. E.g., you can reach Zeppelin at the URL provided at the end of the cluster creation of from the AWS web console. Congratulations! You can now execute Spark jobs from your web browser using Zeppelin.
+at the end of the cluster creation become reachable. E.g., Zeppelin is now reachable at http://ec2-3-301-77-135.eu-central-1.compute.amazonaws.com:8890 . Congratulations! You can now execute Spark jobs from your web browser using Zeppelin.
 `
 > Hint: the creation of the tunnel right after the creation of the cluster can be enabled with the `--tunnel` option with the `create` task. 
 
