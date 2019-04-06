@@ -68,7 +68,7 @@ The output reports the complete S3 upload path for clarity, altogether
 with a final message `Operation completed: awsflow x.y.z deployed!` If you see it,
 congratulations! you built and deployed the package to S3.
 
-> To be able to execute all `fab` commands also from the host (not required but doable),
+> If you want to be able to execute all `fab` commands also from the host,
 execute the command `pip -r requirements.txt` on the host to install the dependencies.
 
 ## Listing active EMR clusters
