@@ -6,7 +6,7 @@ from tempfile import mkdtemp
 import boto3
 from fabric.api import local
 
-from awsflow.config import AWS_DEFAULT_REGION, AWS_LAMBDA_ROLE, AWS_LAMBDA_MEMORYSIZE, AWS_LAMBDA_TIMEOUT, \
+from awsflow.config import AWS_DEFAULT_REGION, AWS_ROLE, AWS_LAMBDA_MEMORYSIZE, AWS_LAMBDA_TIMEOUT, \
     AWS_LAMBDA_RUNTIME
 from awsflow.helpers.log import logger, fatal
 from awsflow.version import __version__

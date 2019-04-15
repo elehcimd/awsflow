@@ -60,13 +60,15 @@ All other `fab` commands should be executed from the container shell(s).
 Let's build and deploy the package from the container shell:
 
 ```
-fab pkg_build
 fab pkg_deploy
 ```
 
 The output reports the complete S3 upload path for clarity, altogether
 with a final message `Operation completed: awsflow x.y.z deployed!` If you see it,
 congratulations! you built and deployed the package to S3.
+
+> The minor version number is increased at every execution of the `pkg_build` task.
+> The `pkg_deploy` task executes `pkg_deploy`before uploading of the package to S3.
 
 > If you want to be able to execute all `fab` commands also from the host,
 execute the command `pip -r requirements.txt` on the host to install the package dependencies.

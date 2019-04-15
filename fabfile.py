@@ -172,6 +172,7 @@ def pkg_build():
     """
 
     clean()
+    inc_version()
     local('python3 setup.py sdist bdist_wheel')
 
 
@@ -181,7 +182,7 @@ def pkg_deploy(host=None):
     Deploy package to AWS S3
     :return:
     """
-    inc_version()
+
     pkg_build()
     local('aws s3 cp dist/{pkg_wheel_fname} {aws_s3base}/'.format(pkg_wheel_fname=PKG_WHEEL_FNAME,
                                                                   aws_s3base=AWS_S3_BASE).format(version=get_version()))
