@@ -3,10 +3,11 @@
 This package lets you define programmatically workloads for AWS Elastic Map Reduce (EMR) clusters and Lambda
 functions using Python with a concise methodology aimed at fast prototyping.
 
+> We use AWSFlow everyday to create clusters, run Jupyter & Zeppelin notebooks persisted on S3,
+schedule the creation of clusters, and manage the execution of Spark jobs triggered by CloudWatch events.
+
 It comes with a predefined set of templates for Amazon EMR clusters, steps, bootstrap actions, and Lambda functions,
 including a few handy command line tools to manage them. Further, it gets installed everywhere to provide a unified command-line and programmatic interface: local Docker container, EMR cluster nodes, and context of Lambda functions. 
-
-> We use `awsflow` to create clusters, run Jupyter/Zeppelin notebooks (persisted on S3), schedule the creation of clusters, and manage the execution of Spark jobs triggered by CloudWatch events.
 
 ## Usage
 
